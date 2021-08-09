@@ -2,7 +2,7 @@
 
 .header {
   position: fixed;
-  top: 0%;
+  top: 0;
   left: 0;
   z-index: 1000;
   width: 100%;
@@ -15,52 +15,19 @@
 }
 
 .main-logo {
-  font-size: 42px;
-  padding-left: 81;
+  // font-size: 42px;
+  // padding-left: 81;
+  margin-right: auto;
   }
 
 .phone {
-  margin-left: auto;
-  font-size: 28px;
+  margin-left: 81px;
+  // margin-left: auto;
+  // font-size: 28px;
 }
 
 .main-logo,
 .phone {
     color: #FBF2DA;
-    text-decoration: none;
+    // text-decoration: none;
   }
-
-  .main-nav {
-    text-align: right;
-
-  }
-
-
- .main-nav ul {
-text-align: center;
-padding-left: 127px;
-
-}
-
-.main-nav li {
-  display: inline-block;
-}
-
-.main-nav a {
-  display: block;
-  padding: 33px 25px;
-  font-weight:normal;
-  font-size: 24px;
-  line-height:33px;
-  color: #fff;
-  text-decoration: none;
-
-  }
-
-.main-nav a:hover {
-  color: #D46240;
-}
-
-.main-nav .active {
-    color: #D46240;
-}
