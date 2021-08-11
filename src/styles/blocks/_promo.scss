@@ -1,64 +1,19 @@
 /* Промо */
 
-.promo-visual-img{
+.promo-info{
   position: relative;
+  display: flex;
   /* width: 1440;
   height:650px ; */
   object-fit: cover;
 }
 
-.promo-visual-title {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 116px;
-  line-height: 136px;
-   text-align: center;
-  color: #fff;
+
+.promo-link {
+
+position: static;
+left: 0%;
+right: 0%;
+top: 60.71%;
+bottom: 0%;
 }
-
-.promo-link{
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  font-size: 32px;
-  line-height: 44px;
-  text-align: center;
-   color: #ffffff;
-   text-decoration: none;
-}
-
-
-
-// .promo {
-//   padding: 50px 0;
-//   background-color: lightsteelblue;
-// }
-
-// .promo-inner {
-//   margin: 0 auto;
-//   width: 1024px;
-
-//   @media (max-width: 1279px) {
-//     width: auto;
-//     max-width: 1024px;
-//   }
-// }
-
-// .promo-ttl {
-//   font-size: $h1-fz-desktop;
-//   font-weight: $h1-fw;
-
-//   @media (max-width: 1279px) {
-//     font-size: $h1-fz-tablet;
-//   }
-
-//   @media (max-width: 669px) {
-//     font-size: $h1-fz-mobile;
-//   }
-// }
